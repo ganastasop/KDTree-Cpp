@@ -2,6 +2,8 @@
 #include "Embedding.hpp"
 #include "KDTree.hpp"
 #include "Distance.hpp"
+#include "InvalidFileException.hpp"
+#include "InvalidDimensionsException.hpp"
 
 int main() {
     try {
